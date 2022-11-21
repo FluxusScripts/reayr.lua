@@ -108,3 +108,14 @@ Section:NewButton("Дс: Aucalam#2879 ЧЕК ИНФО", "Не отвечаю н�
 
 end)
 
+Section:NewKeybind("Закрывания хаба на клавишу..", "Клавиша закрывания хаба", Enum.KeyCode.F, function()
+
+	Library:ToggleUI()end)
+
+Section:NewButton("Клавиатура(Для телефонов)", "Даёт кклав коку", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+    print("Clicked")
+
+end)
