@@ -70,7 +70,7 @@ end)
 
 Section:NewButton("Domainx(Закрывает предметы)", "Domainx", function()
 
-loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
 
     print("Clicked")
 
