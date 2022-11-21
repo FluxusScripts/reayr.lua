@@ -44,9 +44,43 @@ loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\
 
 end)
 
-Section:NewButton("hoho hub Инфо! --->", "ИГРЫ: ПЕТ СИМ Х,Блокс фрутк и т.д.", function()
+Section:NewButton("hoho hub Инфо! --->", "ИГРЫ: ПЕТ СИМ Х,Блокс фрутк", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Infinite yield", "Infinite Yield", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+    print("Clicked") 
+
+end)
+
+Section:NewButton("Doors", "Даёт скипт на дорс", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+
+    print("Clicked")
+
+end)
+
+Section:NewButton("Domainx(Закрывает предметы)", "Domainx", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+
+    print("Clicked")
+
+end)
+
+local Section = Tab:NewSection("Fe")
+
+Section:NewButton("Крипер оу нет", "Кредиты для I'm Patrick", function()
+
+loadstring(game:HttpGet(('https://pastefy.ga/Kqi7ZcbX/raw'),true))()
 
     print("Clicked")
 
