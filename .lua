@@ -1,11 +1,12 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 
-local Window = Library.CreateLib("Руель", "Ocean")
+local Window = Library.CreateLib("Руель", "Bloodtheme")
 
 local Tab = Window:NewTab("Скрипты")
 
-local Section = Tab:NewSection("Хаус(Chaos)")
-
+local Section = Tab:NewSection("скрипты")
+local Section = Tab:NewSection("Уже вышел новый хаб.")
+local Section = Tab:NewSection("Уже вышел новый хаб.")
 Section:NewButton("Флай v3(МНОГО НЕ НАЖИМАТЬ)", "Улетoй)))))", function()
 
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
@@ -119,3 +120,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifv
     print("Clicked")
 
 end)
+local Tab = Window:NewTab("Обновление!")
+local Section = Tab:NewSection("1 обновление СДЕЛАН ЭТОТ ХАБ.")
+local Section = Tab:NewSection("2 Обнова. Уже вышел новый хаб.")
+local Section = Tab:NewSection("3 обнова. Хаб теперь можно двигать")
