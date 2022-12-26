@@ -124,3 +124,6 @@ local Tab = Window:NewTab("Обновление!")
 local Section = Tab:NewSection("1 обновление СДЕЛАН ЭТОТ ХАБ.")
 local Section = Tab:NewSection("2 Обнова. Уже вышел новый хаб.")
 local Section = Tab:NewSection("3 обнова. Хаб теперь можно двигать")
+Section:NewButton("3 обнова. новая тема", "?", function()
+
+    print("Clicked")
