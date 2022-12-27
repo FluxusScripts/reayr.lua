@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GvD9RYVq"))()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/V4sWVdtW"))()
 
 local Window = Library.CreateLib("Руель", "BloodTheme")
 
