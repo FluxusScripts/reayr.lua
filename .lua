@@ -10,21 +10,15 @@ Section:NewButton("Флай v3(МНОГО НЕ НАЖИМАТЬ)", "Улетoй)
 
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
 
-    print("Е")
+    print("Tau#2879")
 
 end)
 
-Section:NewButton("Hub Для хауса(Тоже много не использовать)", "ButtonInfo", function()
+Section:NewButton("Hub Для хауса(Тоже много не использовать)", "ага, думал я еще не убрал описание Buttoninfo?", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/aidanlolol/MainScript/main/ChaosScriptVersionTwoPointOne.lua"))()
 
-    print("Б")
-
-end)
-
-Section:NewSlider("Бегать", "Быстро бегать", 500, 0, function(s)
-
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    print("Tau#2879")
 
 end)
 
@@ -32,31 +26,31 @@ Section:NewButton("Старый скрипт chaos", "Старый скрипт 
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
 
-    print("А")
+    print("Tau#2879")
 
 end)
 
-Section:NewButton("Старый Флай V2", "?", function()
+Section:NewButton("Старый Флай V2", "? да, мне лень было писать.", function()
 
 loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
 
-    print("Т")
+    print("Tau#2879")
 
 end)
 
-Section:NewButton("hoho hub Инфо! --->", "ИГРЫ: ПЕТ СИМ Х,Блокс фрутк", function()
+Section:NewButton("hoho hub Инфо! --->", "ИГРЫ: ПЕТ СИМ Х,Блокс фрутк и так далее.", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 
-    print("Clicked")
+    print("Tau#2879")
 
 end)
 
-Section:NewButton("Infinite yield", "Infinite Yield", function()
+Section:NewButton("Infinite yield", "Infinite Yield, а и так уже понятно", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 
-    print("Clicked") 
+    print("Tau#2879") 
 
 end)
 
@@ -64,7 +58,7 @@ Section:NewButton("Doors", "Даёт скипт на дорс", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
 
-    print("Clicked")
+    print("Tau#2879")
 
 end)
 
@@ -72,19 +66,43 @@ Section:NewButton("Domainx(Закрывает предметы)", "Domainx", fun
 
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
 
-    print("Clicked")
+    print("Tau#2879")
 
 end)
 
-local Tab = Window:NewTab("Хибы(Hub)")
+local Tab = Window:NewTab("Функции")
 
-local Section = Tab:NewSection("Хибы")
+local Section = Tab:NewSection("Функции")
 
-Section:NewButton("Feyz Hub", "КРУТОЙ ХИБ!", function()
+Section:NewSlider("Бегать", "Быстро бегать", 500, 0, function(s)
 
-loadstring(game:HttpGet("https://pastebin.com/raw/bzmhRgKL"))();
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 
-    print("Ь")
+end)
+
+Section:NewTextBox("Бег", "TextboxInfo", function(txt)
+
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+
+	print(txt)end)
+
+Section:NewSlider("Прыжок", ".", 500, 0, function(s) 
+
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+
+end)
+
+Section:NewTextBox("Прыжок", "?", function(txt)
+
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+
+	print(txt)
+
+end)
+
+Section:NewSlider("жизнь(не показывает игрокам)", "SliderInfo, забыл убрать.уфф", 100, 0, function(s) 
+
+    game.Players.LocalPlayer.Character.Humanoid.Health = s
 
 end)
 
@@ -94,23 +112,25 @@ local Section = Tab:NewSection("Ютуб: Любитель Arceus x")
 
 Section:NewButton("Дс: Tau#2879 ЧЕК ИНФО", "Не отвечаю напиши в лс СЕРВЕР и я тебе его скину", function()
 
-    print("Н")
+    print("Tau#2879")
 
 end)
 
 Section:NewKeybind("Закрывания хаба на клавишу..", "Клавиша закрывания хаба", Enum.KeyCode.F, function()
 
-	Library:ToggleUI()end)
+	Library:ToggleUI()
+
+end)
 
 Section:NewButton("Клавиатура(Для телефонов)", "Даёт кклав коку", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 
-    print("Clicked")
+    print("Tau#2879")
 
 end)
 
-local Tab = Window:NewTab("Обновы.       Смс +3!")
+local Tab = Window:NewTab("Обновы.       Смс +5!")
 
 local Section = Tab:NewSection("0 Обнова. вышел хаб.")
 
@@ -120,6 +140,10 @@ local Section = Tab:NewSection("2.Вышел новый хаб. Можно дв�
 
 local Section = Tab:NewSection("3.Обновление темы.")
 
+local Section = Tab:NewSection("4.Новый таб Функции.")
+
+local Section = Tab:NewSection("5.Новые кнопки в (Больше скриптов) и (FE)")
+
 local Tab = Window:NewTab("Fe")
 
 local Section = Tab:NewSection("Fe")
@@ -128,7 +152,15 @@ Section:NewButton("Крипер оу нет", "Кредиты для I'm Patrick
 
 loadstring(game:HttpGet(('https://pastefy.ga/Kqi7ZcbX/raw'),true))()
 
-    print("Clicked")
+    print("Tau#2879")
+
+end)
+
+Section:NewButton("меню с FE скриптами","Кредиты для DVRKNVSS", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+
+print("Tau#2879")
 
 end)
 
@@ -149,8 +181,20 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+Section:NewButton("Жми!", "Кредиты мне.", function()
 
-    print("Clicked")
+-- Script generated by SimpleSpy - credits to exx#9394
+
+local args = {
+
+    [1] = 'REAYR YOUTUBE REAYR YOUTUBE REAYR YOUTUBE REAYR YOUTUBE REAYR YOUTUBE REAYR YOUTUBE REAYR YOUTUBE REAYR YOUTUBE REAYR YOUTUBE REAYR YOUTUBE REAYR '
+
+    [2] = "All"
+
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    print("Tau#2879")
 
 end)
 
@@ -162,17 +206,57 @@ Section:NewButton("Adopt me! Ключ система", "Кредиты для As
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe"))()
 
-    print("Clicked")
+    print("Tau#2879")
 
 end)
 
-local Section = Tab:NewSection("Так как я устал за сегодня скоро еще будет!")
+Section:NewButton("Arsenal!","Кредиты для ?", function()
 
-local Tab = Window:NewTab("Разные скрипты")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Arsenal"))()
 
-local Section = Tab:NewSection("Так как я устал за скоро еще будет!")
+print("Tau#2879")
 
+end)
 
+Section:NewButton("Evade","Кредиты для ?", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+
+print("Tau#2879")
+
+end)
+
+Section:NewButton("Storng man!","Кредиты для ?", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/hngamingroblox/scripts/main/strongman%20simulator'))()
+
+print("Tau#2879")
+
+end)
+
+Section:NewButton("Break in","Кредиты для ?", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+
+print("Tau#2879")
+
+end)
+
+Section:NewButton("break in2!","Кредиты для Nikita", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nikita365/Break-In-Story-/main/Break%20In%20Story%20Hub"))()
+
+print("Tau#2879")
+
+end)
+
+Section:NewButton("Mini hub с скриптами для игр","Кредиты для ?", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+
+print("Tau#2879")
+
+end)
 
 local Tab = Window:NewTab("Больше..")
 
@@ -184,10 +268,34 @@ local Section = Tab:NewSection("Если я буду делать этот ха�
 
 local Section = Tab:NewSection("То напишите мне в лс дс чтобы я делал быстрее")
 
-local Tab = Window:NewTab("Поддережка!")
+local Tab = Window:NewTab("Подрежка!")
 
 local Section = Tab:NewSection("Писать Tau#2879")
 
 local Section = Tab:NewSection("А если что то важное пишите мне в лс ~Сервер~")
 
-local Section = Tab:NewSection("100 линей скрипта")
+local Section = Tab:NewSection("200 линей хаба(Gui)")
+
+game.StarterGui:SetCore("SendNotification", { 
+
+Title = "Руель"; 
+
+Text = "Хъх"; -- what the text says (ofc) 
+
+Duration = 30; 
+
+}) 
+
+wait(1) 
+
+game.StarterGui:SetCore("SendNotification", { 
+
+Title = "Хъх"; 
+
+Text = "От меня(Не красть)"; 
+
+Duration = 30; 
+
+})
+
+ 
