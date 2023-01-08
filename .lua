@@ -245,6 +245,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V
 print("Tau#2879")
 
 end)
+Section:NewButton("Mini hub с скриптами для игр","Кредиты для ?", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniNoobie/MINI-HUB-V2/main/FINALLY%20UPDATED%20MINI%20HUB",true))()
+
+print("Tau#2879")
+
+end)
 
 local Tab = Window:NewTab("Больше..")
 
