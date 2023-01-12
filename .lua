@@ -3,7 +3,7 @@ local Library = loadstring(game:HttpGet("https://pastebin.com/raw/Ag4qAQ5p"))()
 
 
 
-local Window = Library.CreateLib("Руель", "DarkTheme")
+local Window = Library.CreateLib("Руель", "GrapeTheme")
 
 
 
