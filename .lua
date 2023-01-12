@@ -1,27 +1,14 @@
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/Ag4qAQ5p"))()
-
-
-
-local Window = Library.CreateLib("Руель", "GrapeTheme")
-
-
+local Window = Library.CreateLib("Руель", "BloodTheme")
 
 local Tab = Window:NewTab("Скрипты")
 
-
-
 local Section = Tab:NewSection("Просто скрипты")
-
-
 
 Section:NewButton("Флай v3(МНОГО НЕ НАЖИМАТЬ)", "Улетoй)))))", function()
 
-
-
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
-
-
 
     print("Tau#2879")
 
@@ -33,11 +20,7 @@ end)
 
 Section:NewButton("Hub Для хауса(Тоже много не использовать)", "ага, думал я еще не убрал описание Buttoninfo?", function()
 
-
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/aidanlolol/MainScript/main/ChaosScriptVersionTwoPointOne.lua"))()
-
-
 
     print("Tau#2879")
 
@@ -49,11 +32,7 @@ end)
 
 Section:NewButton("Старый скрипт chaos", "Старый скрипт на хаус", function()
 
-
-
 loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
-
-
 
     print("Tau#2879")
 
