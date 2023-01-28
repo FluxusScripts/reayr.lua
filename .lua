@@ -1,6 +1,9 @@
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/Ag4qAQ5p"))()
-local Window = Library.CreateLib("Руель", "BloodTheme")
+
+local Window = Library.CreateLib("Руель", "DarkTheme")
+
+
 
 local Tab = Window:NewTab("Скрипты")
 
@@ -12,47 +15,17 @@ loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
 
     print("Tau#2879")
 
-
-
 end)
 
 
-
-Section:NewButton("Hub Для хауса(Тоже много не использовать)", "ага, думал я еще не убрал описание Buttoninfo?", function()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/aidanlolol/MainScript/main/ChaosScriptVersionTwoPointOne.lua"))()
-
-    print("Tau#2879")
-
-
-
-end)
-
-
-
-Section:NewButton("Старый скрипт chaos", "Старый скрипт на хаус", function()
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
-
-    print("Tau#2879")
-
-
-
-end)
 
 
 
 Section:NewButton("Старый Флай V2", "? да, мне лень было писать.", function()
 
-
-
 loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
 
-
-
     print("Tau#2879")
-
-
 
 end)
 
@@ -64,11 +37,7 @@ end)
 
 Section:NewButton("Infinite yield", "Infinite Yield, а и так уже понятно", function()
 
-
-
 loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-
-
 
     print("Tau#2879") 
 
@@ -80,11 +49,7 @@ end)
 
 Section:NewButton("Doors", "Даёт скипт на дорс", function()
 
-
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
-
-
 
     print("Tau#2879")
 
@@ -96,9 +61,39 @@ end)
 
 Section:NewButton("Domainx(Закрывает предметы)", "Domainx", function()
 
-
-
 loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+
+    print("Tau#2879")
+
+end)
+
+
+
+local Tab = Window:NewTab("CHAOS-СКРИИТ")
+
+
+
+local Section = Tab:NewSection("Так как я люблю эту игру я решил сделать такой таб")
+
+Section:NewButton("Hub Для хауса(Тоже много не использовать)", "ага, думал я еще не убрал описание Buttoninfo?", function()
+
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/aidanlolol/MainScript/main/ChaosScriptVersionTwoPointOne.lua"))()
+
+
+
+    print("Tau#2879")
+
+end)
+
+
+
+Section:NewButton("Старый скрипт chaos", "Старый скрипт на хаус", function()
+
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
 
 
 
@@ -108,23 +103,33 @@ loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
 
 end)
 
+Section:NewButton("#3 скрипт (дал подписчик)", "скрипт дал подписчик, а ты дашь???", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bluntman420n/fucns/main/FUCKYOUCUNT.BLUNT", true))()
+
+    print("Tau#2879")
+
+end)
+
+
+
+
+
+
+
+
+
+
+
 
 
 local Tab = Window:NewTab("Функции")
 
-
-
 local Section = Tab:NewSection("Функции")
-
-
 
 Section:NewSlider("Бегать", "Быстро бегать", 500, 0, function(s)
 
-
-
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-
-
 
 end)
 
@@ -132,11 +137,7 @@ end)
 
 Section:NewTextBox("Бег", "TextboxInfo", function(txt)
 
-
-
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
-
-
 
 	print(txt)end)
 
@@ -183,7 +184,7 @@ local Tab = Window:NewTab("Кредиты")
 
 
 
-local Section = Tab:NewSection("Ютуб: Любитель Arceus x")
+local Section = Tab:NewSection("Ютуб: MastArceusMx")
 
 
 
@@ -211,19 +212,7 @@ end)
 
 
 
-Section:NewButton("Клавиатура(Для телефонов)", "Даёт кклав коку", function()
 
-
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
-
-
-
-    print("Tau#2879")
-
-
-
-end)
 
 
 
@@ -233,25 +222,19 @@ local Tab = Window:NewTab("Обновы.       Смс +5!")
 
 local Section = Tab:NewSection("0 Обнова. вышел хаб.")
 
-
-
-local Section = Tab:NewSection("1. Обнова. добавление новых кнопок")
-
-
+local Section = Tab:NewSection("1.Обнова. добавление новых кнопок")
 
 local Section = Tab:NewSection("2.Вышел новый хаб. Можно двигать это окно")
 
 local Section = Tab:NewSection("3.Обновление темы.")
 
-
-
 local Section = Tab:NewSection("4.Новый таб Функции.")
-
-
 
 local Section = Tab:NewSection("5.Новые кнопки в (Больше скриптов) и (FE)")
 
+local Section = Tab:NewSection("6.Новые кнопки Больше скриптов добавлена кнопка закрывания"
 
+local Section = Tab:NewSection("7.Новый таб для chaos и кнопки в FE"
 
 local Tab = Window:NewTab("Fe")
 
@@ -263,11 +246,7 @@ local Section = Tab:NewSection("Fe")
 
 Section:NewButton("Крипер оу нет", "Кредиты для I'm Patrick", function()
 
-
-
 loadstring(game:HttpGet(('https://pastefy.ga/Kqi7ZcbX/raw'),true))()
-
-
 
     print("Tau#2879")
 
@@ -290,6 +269,26 @@ print("Tau#2879")
 
 
 end)
+
+Section:NewButton("",".", function()
+
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+
+
+
+print("Tau#2879")
+
+
+
+end)
+
+
+
+
+
+
 
 
 
@@ -469,8 +468,6 @@ end)
 
 local Tab = Window:NewTab("Больше..")
 
-
-
 local Section = Tab:NewSection("Просим прощения но дальше нельзя")
 
 
@@ -505,11 +502,11 @@ game.StarterGui:SetCore("SendNotification", {
 
 
 
-Title = "Руель"; 
+Title = "Обнова"; 
 
 
 
-Text = "Хъх"; -- what the text says (ofc) 
+Text = "7 Обнова. добавление кнопок в FE и таб для игры chaos"; -- what the text says (ofc) 
 
 
 
@@ -529,11 +526,11 @@ game.StarterGui:SetCore("SendNotification", {
 
 
 
-Title = "Хъх"; 
+Title = "ъъ"; 
 
 
 
-Text = "От меня(Не красть)"; 
+Text = "убью если украдешь "; 
 
 
 
