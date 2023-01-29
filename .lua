@@ -232,9 +232,9 @@ local Section = Tab:NewSection("4.Новый таб Функции.")
 
 local Section = Tab:NewSection("5.Новые кнопки в (Больше скриптов) и (FE)")
 
-local Section = Tab:NewSection("6.Новые кнопки Больше скриптов добавлена кнопка закрывания"
+local Section = Tab:NewSection("6.Новые кнопки Больше скриптов добавлена кнопка закрывания")
 
-local Section = Tab:NewSection("7.Новый таб для chaos и кнопки в FE"
+local Section = Tab:NewSection("7.Новый таб для chaos и кнопки в FE")
 
 local Tab = Window:NewTab("Fe")
 
@@ -270,18 +270,8 @@ print("Tau#2879")
 
 end)
 
-Section:NewButton("",".", function()
-
-
-
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
-
-
-
+Section:NewButton("не кликай забыл скрипт",".", function()
 print("Tau#2879")
-
-
-
 end)
 
 
